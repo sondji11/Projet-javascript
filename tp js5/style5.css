@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --primairycolor:#373B69;
+    --secondarycolor:#22254A;
+}
+body{
+   max-width:100%;
+    height:90vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--secondarycolor);
+    font-family: 'Montserrat', sans-serif;
+    
+
+    
+    
+}
+.menu{
+    /* border: solid black 2px; */
+    height:85% ;
+    margin:0;
+    display: flex;
+    
+}
+header{
+    height:10% ;
+    /* border:blue solid 2px; */
+    display: flex; 
+     justify-content: flex-end;
+    align-items: center;
+    padding-right:2rem ; 
+    background-color: var(--primairycolor);
+    margin-top:-3% ;
+
+}
+ input{
+    border-radius: 25px;
+    height:3em; 
+    font-size:1.4em ;
+    width:15em ;
+    color:#fff;
+    background-color: var(--primairycolor);
+    padding-left:2em ;
+    border: solid 2px var(--secondarycolor);
+    
+
+}
+
+#search:focus{
+    outline: 0;
+    background-color:var(--primairycolor) ;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+    
+    
+}
+#infofilm1{
+    display: flex;
+    flex-direction: row;
+    background-color:var(--primairycolor) ;
+    height:50% ;
+    justify-content: space-between;
+    align-items: center;
+}
+#imagefilm1 img
+{
+    height:500px;
+    width:300px ;
+
+}
+.movie{
+    box-shadow:black;
+    border: solid 2px var(--primairycolor);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+h5{
+    color: #fff;
+    ;
+}
+span{
+    background-color:var(--secondarycolor);
+    padding-left:9px ;
+    height:30px ;
+    width:40px ;
+    color:green;
+     
+}
+#texte{
+    
+    font-size:16px ;
+    color:black;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+     bottom: 0; 
+    background-color:white ;
+   max-height:100% ;
+    padding:2em ;
+    transform: translateY(10100%);
+    margin-bottom:2.4em ;
+    
+    
+}
+.movie:hover #texte{
+    transform: translateY(0%);
+    transition: tranform 0.3s ease;
+}
+.titrefilm{
+    color: #fff;
+    padding-left:2em ;
+}

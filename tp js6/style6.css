@@ -1,0 +1,98 @@
+body{
+    box-sizing: border-box;
+    height:100vh ;
+    margin:0;
+    background-color:var(--primairiecolor--) ;
+
+}
+:root{
+    --primairiecolor--:#E9E8E6;
+    --secondariecolor--:#ffff;
+    --troisiemecolor--:#F3E1FF;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:2em ;
+    background-color: var(--secondariecolor--);
+}
+.header{
+    border: solid red 2px;
+    height:10vh;
+    width:50% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header input{
+    height:50px ;
+    width:35% ;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    border:solid 2px#EEEEEE ;
+    margin-right:2em ;
+}
+.header img{
+    max-width:5Opx ;
+    max-height: 50px;
+}
+.recette{
+    background-color: var(--troisiemecolor--);
+    height:35vh ;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.recettes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid blue 2px;
+    height: 45vh;
+    width: 50%;
+}
+#imageplat img{
+    height:90px ;
+    width: 90px;
+    border-radius: 90px;
+    border: solid white 5px;
+}
+  .recettes img{ 
+    height:65%;
+    width:80%;
+   
+
+
+}  
+#genererbtn{
+    z-index: 2;
+    position: absolute;
+    margin-bottom:10px  ;
+    padding-top: 5px;
+    padding-right:50px ;
+  
+
+
+}
+.recettess{
+    width: 100%;
+
+}
+#freshsardine{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    width:80% ;
+    height:25% ;
+    /* margin-top:10% ; */
+}
